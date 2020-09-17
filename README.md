@@ -1,6 +1,3 @@
-# demo
-github apprehending
-
 # Chat Bot
 
 
