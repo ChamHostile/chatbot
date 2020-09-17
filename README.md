@@ -43,3 +43,13 @@ Other users have the same elements as the profile except that they are smaller a
 		    	<span>32</span>
 		   	</div>
 		</div>
+
+### Message Element
+
+The message element is composed of :
+
+1. The messages received and sent
+
+2. The message form with a text input and a send button.
+
+
