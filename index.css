@@ -13,3 +13,49 @@ body{
   font-family : "Verdana";
   background-color : #7CEC9F;
 }
+/**
+ * Contacts Profiles
+ */
+
+body{
+  font-family : "Verdana";
+  background-color : #7CEC9F;
+}
+
+.contacts {
+  width: 30%;
+  float : left;
+  min-width  : 220px;
+  overflow-y: auto;
+  height: 90vh;
+}
+
+.contacts--profiles {
+  background: #2ecc72;
+  padding: 1rem;
+  height: 80px;
+}
+
+.contacts--profiles-avatar img {
+  width: 75px;
+  border-radius: 50px;
+  border: 1px solid black;
+}
+
+.contacts--profiles-name span {
+  margin-top: 25px;
+  display: block;
+  font-size: 20px;
+}
+
+.contacts--profiles-avatar {
+  width: 30%;
+}
+
+.contacts--profiles-name {
+  width: calc(70% - 30px);
+}
+
+.contacts--profiles-avatar, .contacts--profiles-name {
+  float: left;
+}
