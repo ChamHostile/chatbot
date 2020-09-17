@@ -191,3 +191,29 @@ body{
   background-color: #3eee;
   color : white;
 }
+@media  (max-width : 732px){
+  .contacts {
+    min-width : 220px;
+  }
+
+  .messages_section{
+    width: calc(100% - 220px);  
+  }
+
+  .messages--sent, .messages--received{
+    min-width : 238px;
+    float : left;
+  }
+
+  .form-message textarea{ 
+    max-width : 250px;
+  }
+
+ }
+
+@media (max-width : 550px){
+  
+  .form-message textarea{
+    max-width : 150px;
+  }
+}
