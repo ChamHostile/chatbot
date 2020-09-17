@@ -91,3 +91,77 @@ body{
   display: block;
   font-size: 17px;
 }
+
+.messages_section{
+  width :70% ;
+  float: right;
+  min-width: calc(70% - 180px);
+  background-color: #9eee;
+  height: 100%;  
+}
+
+.messages{
+  height: 90vh;
+  background-color : #9eee;
+  overflow-y: auto;
+}
+
+.messages--received-status img{
+  border-radius : 50%;
+  border : 2px solid aliceblue ;
+  box-shadow : #218F76 3px 3px;
+  float: left;
+  width : 30%;  
+}
+
+.messages--sent-status img{
+  border-radius : 50%;
+  border : 2px solid aliceblue ;
+  box-shadow : #019031 3px 3px;
+  float: left;
+  width: 30%;
+}
+
+.messages--received, .messages--sent{
+  width : 40%;
+  margin-left : 2vw; 
+  margin-top : 2vh;
+  border-radius : 30px;
+  clear: both;
+}
+
+.messages--received-status-date, .messages--sent-status-date{
+  float : left;
+  width : 20%;
+  color : cadetblue;
+}
+
+.messages--received-status-name span{
+  float : left;
+  width : 40%;
+  font-weight: bold;
+  color : white;
+}
+
+.messages--sent-status-name span{
+  float : left;
+  width : 40%;
+  font-weight: bold;
+  color : white;
+}
+
+.messages--received, .messages--sent{
+  background-color : #67E6DC;
+  margin-top : 10px;
+  padding : 1rem;
+}
+
+.messages--sent{
+  float : right;
+  margin-right : 2vw; 
+  background-color: #7CEC9F;
+}
+
+.clear{
+  clear : both;
+}
