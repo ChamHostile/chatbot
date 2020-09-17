@@ -59,3 +59,35 @@ body{
 .contacts--profiles-avatar, .contacts--profiles-name {
   float: left;
 }
+
+/**
+ * Contacts List
+ */
+.contacts--list ul li {
+  text-decoration: none;
+  padding: 10px 10px;
+  height: 55px;
+  background-color : #7CEC9F;
+}
+
+.contacts--list ul li:last-child {
+  border: none;
+}
+
+.contacts--list-item-avatar, .contacts--list-item-name, .contacts--list-item-counter {
+  float: left;
+}
+
+.contacts--list-item-avatar img {
+  width: 50px;
+  border-radius: 50px;
+}
+.contacts--list-item-name, .contacts--list-item-counter {
+  margin-left: 10px;
+}
+
+.contacts--list-item-name span, .contacts--list-item-counter span {
+  margin-top: 20px;
+  display: block;
+  font-size: 17px;
+}
