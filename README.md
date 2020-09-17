@@ -53,3 +53,34 @@ The message element is composed of :
 2. The message form with a text input and a send button.
 
 
+#### Messages sent/received : 
+
+The message are composed of the name, image of the users and message date at the top of the div. At the bottom we have the message sent/received.
+
+	<div class="messages--received">
+	  <div class="messages--received-status">
+	    <div class="messages--received-status-avatar">
+	      <img src="https://tel.img.pmdstatic.net/fit/https.3A.2F.2Fprd2-tel-epg-img.2Es3-eu-west-1.2Eamazonaws.2Ecom.2FproviderPerson.2F70635f1576fb02de.2Ejpeg/300x300/quality/80/sansa-stark.jpeg" alt="avatar" />
+	    </div>
+	   	<div class="messages--received-status-name">
+	      <span>Sansa Stark</span>
+	    </div>
+	    <div class="messages--received-status-date">
+	      <span>16:04:54</span>
+	   	</div>
+	  </div>
+	  <div class="messages--received-text clear">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero eget mi molestie tempus id ac tortor. Pellentesque ullamcorper arcu orci, eu bibendum ligula iaculis et</p>
+	  </div>
+	</div>
+
+#### The message form 
+
+The message form is simply composed of a text input and button meant to send the message into the message box above.
+
+	<div class="form-message clear">
+	  <form>
+	  	<input type="submit" value="Envoyer">   
+	    	<textarea placeholder="Envoyer un message"></textarea>
+	  </form>
+	</div>
